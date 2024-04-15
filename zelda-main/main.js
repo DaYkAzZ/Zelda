@@ -97,6 +97,18 @@ function avancerTop()
 	return false;
 }
 
+// capacité ultime 
+
+function ulti() {
+	let zelda = document.getElementById('zelda');
+	zelda.style.background = "url(images/boutons.png) 150px 150px";
+}
+
+document.addEventListener('keydown', (event)  => {
+	if(event.key === 'U'){
+		ulti();
+	}
+})
 
 // déplacer le personnage avec le clavier 
 
