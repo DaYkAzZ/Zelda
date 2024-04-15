@@ -9,6 +9,7 @@ height:32px;
 display:block;
 background-repeat: no-repeat;
 position:absolute;
+transform: scale(2);
 
 }
 
