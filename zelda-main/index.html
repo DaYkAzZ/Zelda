@@ -7,6 +7,11 @@
 	<script src="character/mouvement.js"></script>
 	<script src="character/map-collision.js"></script>
 	<script src="character/inventory.js"></script>
+
+	// font
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
 	<title>Zelda</title>
 </head>
 <body>
@@ -27,6 +32,9 @@
 	<div id="inventoryfull" class="ui-inventoryfull" style="left:100px"></div>
 	<div id="health" class="ui-health" style="right:360px; bottom:50px"></div>
 	<button id="inventoryButton"></button>
+	<button id="addRuby"></button>
+	<button id="addRuby2"></button>
+	<div id="ruby" class="hidden"></div>
 
 	<div id="door"></div>
 
@@ -36,9 +44,6 @@
 		<li>Parler aux villageois (0/2)</li>
 	</div>
 
-	<div class="allpommes">
-		<div class="pomme1"><img src="images/pomme.png" alt="pomme"></div>
-		<div class="pomme2"><img src="images/pomme.png" alt="pomme"></div>
-	</div>
+	<div id="pomme" class="pomme"></div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var inventoryButton = document.getElementById("inventoryButton");
-    var inventoryDiv = document.getElementById("inventoryfull");
-    var overlay = document.getElementById("overlay");
+    let inventoryButton = document.getElementById("inventoryButton");
+    let inventoryDiv = document.getElementById("inventoryfull");
+    let overlay = document.getElementById("overlay");
 
     // Ajoutez un écouteur d'événements pour détecter les pressions de touche
     document.addEventListener("keydown", function(event) {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Ajoutez un écouteur d'événements pour détecter les clics sur l'ensemble du document
     document.addEventListener("click", function(event) {
-        var target = event.target; // L'élément sur lequel le clic a été effectué
+        let target = event.target; // L'élément sur lequel le clic a été effectué
 
         // Vérifiez si l'inventaire est affiché et si l'élément cliqué n'est ni l'inventaire ni son bouton de contrôle
         if (inventoryDiv.style.display !== "none" && target !== inventoryDiv && target !== inventoryButton) {
@@ -39,4 +39,19 @@ document.addEventListener("DOMContentLoaded", function() {
             overlay.style.display = "none";
         }
     }
+
+    // ajouter ruby
+    let addRubyButton = document.getElementById("addRuby");
+    let addRubyButton2 = document.getElementById("addRuby2");
+    let ruby = document.getElementById("ruby");
+
+    // Ajoutez un écouteur d'événements pour détecter les clics sur le bouton "Ajouter un ruby"
+    addRubyButton.addEventListener("click", function() {
+        // Affichez l'élément "ruby"
+        ruby.classList.remove("hidden");
+    });
+    addRubyButton2.addEventListener("click", function() {
+        // Affichez l'élément "ruby"
+        ruby.classList.remove("hidden");
+    });
 });
