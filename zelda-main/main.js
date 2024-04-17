@@ -1,21 +1,9 @@
-let zelda = document.getElementById('zelda')
-let chest = document.getElementById("chest");
+// Ajoutez un écouteur d'événements pour le mouvement de la souris
+document.addEventListener('mousemove', function(event) {
+    // Récupérez les coordonnées de la souris par rapport à la fenêtre du navigateur
+    var x = event.clientX;
+    var y = event.clientY;
 
-function setCoords(e, type) {
-  let idX = type + "X";
-  let idY = type + "Y";
-
-  document.getElementById(idX).innerText = e[idX];
-  document.getElementById(idY).innerText = e[idY];
-}
-
-function update(e) {
-  setCoords(e, "offset");
-  setCoords(e, "client");
-  setCoords(e, "page");
-  setCoords(e, "screen");
-}
-
-inner.addEventListener("mouseenter", update, false);
-inner.addEventListener("mousemove", update, false);
-inner.addEventListener("mouseleave", update, false);
+    // Affichez les coordonnées de la souris dans la console du navigateur
+    console.log('Coordonnées de la souris - X : ' + x + ', Y : ' + y);
+});
