@@ -5,6 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script type="text/javascript" src="main.js"></script>
 	<script src="character/mouvement.js"></script>
+	<script src="character/map-collision.js"></script>
+	<title>Zelda</title>
 </head>
 <body>
 	<div id="navigation">
@@ -17,20 +19,25 @@
 	</div>
 
 
-	<div id="zelda" class="dirHaut4" style="left:10px;top:100px;"></div>
+	<div id="zelda" class="dirBas1" style="left:50px;top:700px;"></div>
 
-	<div id="chest"></div>
+	<div id="inventory" class="ui-inventory" style="left:100px"></div>
+    <div id="overlay"></div>
+    <div id="inventoryfull" class="ui-inventoryfull" style="left:100px"></div>
+    <div id="health" class="ui-health" style="right:360px; bottom:50px"></div>
+    <button id="inventoryButton"></button>
+
+	<div id="door"></div>
 
 	<div class="quests">
 		<h3>Quête Principale</h3>
 		<li>Ramasser 10 Pommes (0/10)</li>
-		<li>Tuer 3 ennemis</li>
+		<li>Parler aux villageois (0/2)</li>
 	</div>
 
 	<div class="allpommes">
 		<div class="pomme1"><img src="images/pomme.png" alt="pomme"></div>
 		<div class="pomme2"><img src="images/pomme.png" alt="pomme"></div>
 	</div>
-
 </body>
 </html>
