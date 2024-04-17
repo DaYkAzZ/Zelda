@@ -152,10 +152,32 @@ position:relative;
 	width: 300px;
 	color: white;
 	background: black;
-	padding: 5px;
+	padding: 10px;
 	border-radius: 10px;
 	z-index: 100;
 }
 .chest{
+
+}
+
+
+/*Pommes*/
+
+.allpommes{
+	transform: scale(0.10);
+
+
+.pomme1{
+	transform: scale(0.10);
+	position: relative;
+	left: 370px;
+	bottom: 270px;
+}
+
+
+.pomme2{
+	position: relative;
+	left: 170px;
+	bottom: 270px;
 
 }
