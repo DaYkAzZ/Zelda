@@ -54,4 +54,14 @@ document.addEventListener("DOMContentLoaded", function() {
         // Affichez l'élément "ruby"
         ruby.classList.remove("hidden");
     });
+
+    // ajouter apple
+    let addAppleButton = document.getElementById("addApple");
+    let apple = document.getElementById("appleinventory");
+
+    // Ajoutez un écouteur d'événements pour détecter les clics sur le bouton "Ajouter un apple"
+    addAppleButton.addEventListener("click", function() {
+        // Affichez l'élément "apple"
+        apple.classList.remove("hidden");
+    });
 });

@@ -219,7 +219,7 @@ position:relative;
 }
 
 /*Pommes*/
-.pomme {
+.apple {
 	background-image: url(images/ui.png);
 	position: fixed;
 	background-position: 1120px 2120px;
@@ -228,6 +228,32 @@ position:relative;
 	scale: 0.2;
 	top: 280px;
 	left: 80px;
+}
+
+#appleinventory {
+	background-image: url(images/ui.png);
+	position: fixed;
+	background-position: 1120px 2120px;
+	width: 200px;
+	height: 200px;
+	scale: 0.18;
+	left: 535px;
+	top: 795px;
+}
+
+#addApple {
+	background-image: url(images/ui.png);
+	position: fixed;
+	background-position: 1120px 2120px;
+	width: 200px;
+	height: 200px;
+	scale: 0.2;
+	top: 280px;
+	left: 80px;
+	z-index: 99;
+	background: transparent;
+	border: none;
+	cursor: pointer;
 }
 
 #addRuby {
