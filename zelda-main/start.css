@@ -1,0 +1,59 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Aligne les boutons verticalement */
+    margin-top: 20px; /* Espacement entre les boutons et le titre */
+}
+
+.button {
+    font-family: 'The Wild Breath of Zelda', sans-serif;
+    width: 200px; /* Largeur fixe pour tous les boutons */
+    background-color: #4CAF50; /* Couleur de fond */
+    border: none;
+    color: white; /* Couleur du texte */
+    padding: 15px 0; /* Espacement intérieur */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 0; /* Espacement entre les boutons */
+    cursor: pointer;
+    border-radius: 12px; /* Bord arrondi */
+    border: 2px solid transparent; /* Bordure */
+    transition-duration: 0.4s; /* Durée de l'animation */
+}
+
+.button:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+    border-color: #FFFFFF; /* Couleur de la bordure au survol */
+}
+
+.background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 110%;
+    height: 110%;
+    background-image: url('./images/background.jpg');
+    filter: blur(10px);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    position: relative;
+    bottom: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
