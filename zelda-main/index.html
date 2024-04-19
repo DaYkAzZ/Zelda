@@ -10,7 +10,6 @@
 	<script src="character/dialogue.js"></script>
 	<script src="character/quests.js"></script>
 
-	// font
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
@@ -33,6 +32,7 @@
 	<div id="overlay"></div>
 	<div id="inventoryfull" class="ui-inventoryfull" style="left:100px"></div>
 	<div id="health" class="ui-health" style="right:360px; bottom:50px"></div>
+    <div id="healthUlti" class="ui-health" style="right:360px; bottom:50px; display: none;"></div>
 	<button id="inventoryButton"></button>
 	<button id="addRuby"></button>
 	<button id="addRuby2"></button>
@@ -42,7 +42,7 @@
 
 	<div class="quests">
 		<h3>Quête Principale</h3>
-		<li>Ramasser 10 Pommes (0/10)</li>
+		<li id="quetePomme">Ramasser 10 Pommes (0/10)</li>
 		<li>Parler aux villageois (0/2)</li>
 	</div>
 

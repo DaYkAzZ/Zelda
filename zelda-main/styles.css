@@ -42,6 +42,16 @@ transform: scale(2);
 	scale: 0.15;
 }
 
+#healthUlti {
+    background-image: url(images/ui.png);
+    position: fixed;
+    left: 170px;
+    background-position: 0px 0px;
+    width: 1375px;
+    height: 219px;
+    scale: 0.15;
+}
+
 #inventoryButton {
 	position: absolute;
 	top: 870px;

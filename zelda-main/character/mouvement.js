@@ -107,3 +107,20 @@ document.addEventListener('keydown', (event) => {
 		avancerRight();
 	}
 })
+
+document.addEventListener('keydown', (event) => {
+	if(event.key === 'a'){
+			
+		let ultHealth = document.getElementById('healthUlti');
+		let healthBar = document.getElementById('health')
+
+			zelda.style.backgroundPosition = "-320px -128px";
+			
+			ultHealth.style.display ="block";
+			ultHealth.style.animation = 'healthBar 2s infinite'
+
+			healthBar.style.animation = 'healthBar 2s infinite'
+
+			alert('Capacité Ultime activé');
+	}
+})
