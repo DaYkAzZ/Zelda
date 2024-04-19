@@ -53,6 +53,56 @@ transform: scale(2);
 	cursor: pointer;
 }
 
+
+#statue {
+	position: absolute;
+	top: 500px;
+	left: 790px;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+}
+
+#dialogue {
+    position: absolute;
+    top: 450px;
+    left: 720px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+}
+
+#dialogue-pnj {
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+}
+
+#interaction-pnj {
+	position: absolute;
+	top: 360px;
+	left: 860px;
+	width: 60px;
+	height: 60px;
+	border: none;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.cache {
+    display: none;
+}
+
 #overlay {
     position: fixed;
     top: 0;
