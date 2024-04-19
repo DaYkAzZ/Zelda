@@ -1,6 +1,6 @@
 function avancerRight()
 {
-	var zelda=document.getElementById("zelda");
+	let zelda=document.getElementById("zelda");
 	x=zelda.style.left;
 	
 	
@@ -25,7 +25,7 @@ function avancerRight()
 
 function avancerLeft()
 {
-	var zelda=document.getElementById("zelda");
+	let zelda=document.getElementById("zelda");
 	x=zelda.style.left;
 	
 	if(zelda.className=="dirGauche1")
@@ -49,7 +49,7 @@ function avancerLeft()
 
 function avancerBottom()
 {
-	var zelda=document.getElementById("zelda");
+	let zelda=document.getElementById("zelda");
 	y=zelda.style.top;
 	
 	if(zelda.className=="dirBas1")
@@ -73,7 +73,7 @@ function avancerBottom()
 
 function avancerTop()
 {
-	var zelda=document.getElementById("zelda");
+	let zelda=document.getElementById("zelda");
 	y=zelda.style.top;
 	
 	if(zelda.className=="dirHaut1")
